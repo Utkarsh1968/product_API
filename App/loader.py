@@ -41,7 +41,7 @@ def chunk_text(product):
     """
     chunks = []
     product_id = product['product_id']
-    for field in ['name', 'description', 'features']:
+    for field in ['name', 'description', 'features','price']:
         if field in product:
             text = product[field]          
             for chunk in smart_chunk(text):
