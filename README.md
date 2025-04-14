@@ -17,7 +17,7 @@ This is a backend API that answers user questions about a specific set of produc
 4. The user sends a question.
 5. The system generates an embedding for the question and retrieves the top-k most relevant chunks using cosine similarity with FAISS.
 6. The system constructs a prompt using the retrieved chunks and the user question.
-7. The prompt is passed to a Large Language Model (LLM) like Gemini or OpenAI.
+7. The prompt is passed to a Large Language Model (LLM) like Gemini 
 8. The LLM responds with an answer **based only on the given context**.
 
 ---
