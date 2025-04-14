@@ -32,7 +32,7 @@ project/
 │   ├── embedder.py       # Local embedding generator
 │   ├── vector_store.py   # In-memory FAISS vector store
 │   ├── retriever.py      # Retrieval of top-k relevant chunks
-│   └── llm_client.py     # Interact with Gemini/OpenAI LLM
+│   └── llm_client.py     # Interact with Gemini LLM
 ├── data/
 │   └── products.json     # Dataset of product info
 ├── .env                  # Environment file with API keys
@@ -89,21 +89,21 @@ POST /query
 ### Request Body
 ```bash
 {
-  "question": "Which product is waterproof?"
+  "question": "What are the features of the Smartphone X200?"
 }
 ```
 ### Response
 ```bash
 {
-  "answer": "The AquaBlaster X is waterproof.",
-  "source_product_ids": ["AB001"]
+  "answer": "Cutting-edge smartphone with a stunning display and powerful performance. Equipped with the latest processor, long battery life, and a sleek, lightweight design.",
+  "source_product_ids": ["1","2"]
 }
 ```
 ---
 ## 🧠 Models Used
 - **Embedding model:** all-MiniLM-L6-v2 (via sentence-transformers)
 
-- **LLM:** Gemini Pro or GPT-3.5 
+- **LLM:** gemini-2.0-flash
 
 ## ✅ Design Decisions
 - All embeddings are generated locally using pre-trained transformer models (no API calls for embeddings).
