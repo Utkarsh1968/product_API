@@ -28,7 +28,7 @@ This is a backend API that answers user questions about a specific set of produc
 project/
 ├── app/
 │   ├── server.py           # FastAPI application
-│   ├── loader.py         # Load and read product data
+│   ├── loader.py         # Load and read product data also apply chunking strategy
 │   ├── embedder.py       # Local embedding generator
 │   ├── vector_store.py   # In-memory FAISS vector store
 │   ├── retriever.py      # Retrieval of top-k relevant chunks
