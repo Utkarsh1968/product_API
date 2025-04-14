@@ -86,6 +86,10 @@ uvicorn App.server:app --reload
 ```bash
 POST /query
 ```
+### Request Header
+```bash
+Content-Type: application/json
+```
 ### Request Body
 ```bash
 {
