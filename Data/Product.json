@@ -1,0 +1,130 @@
+[
+    {
+        "product_id": "1",
+        "name": "Smartphone X200",
+        "description": "A cutting-edge smartphone with a stunning display and powerful performance.",
+        "features": [
+            "6.5-inch OLED display",
+            "128GB storage",
+            "5000mAh battery",
+            "5G connectivity"
+        ],
+        "price": "799.99"
+    },
+    {
+        "product_id": "2",
+        "name": "Laptop Pro 14",
+        "description": "A high-performance laptop designed for professionals who need power and portability. Equipped with the latest processor, long battery life, and a sleek, lightweight design.",
+        "features": [
+            "Intel i7 processor",
+            "16GB RAM",
+            "512GB SSD",
+            "13-hour battery life",
+            "Windows 10 Pro"
+        ],
+        "price": "524.22"
+    },
+    {
+        "product_id": "3",
+        "name": "Smartwatch Z1",
+        "description": "A stylish smartwatch that tracks your fitness, heart rate, and keeps you connected on the go.",
+        "features": [
+            "Fitness tracking",
+            "Heart rate monitor",
+            "Bluetooth 5.0",
+            "Water-resistant",
+            "1-week battery life"
+        ],
+        "price": "199.99"
+    },
+    {
+        "product_id": "4",
+        "name": "Wireless Earbuds Pro",
+        "description": "Experience superior sound quality with these noise-canceling wireless earbuds, perfect for music lovers and professionals.",
+        "features": [
+            "Active noise cancelation",
+            "30-hour battery life",
+            "Touch controls",
+            "IPX7 water-resistant"
+        ],
+        "price": "149.99"
+    },
+    {
+        "product_id": "5",
+        "name": "Gaming PC Beast",
+        "description": "Built for gamers, the Gaming PC Beast delivers unbeatable performance with the latest graphics card and processor.",
+        "features": [
+            "RTX 3080 graphics card",
+            "Intel i9 processor",
+            "32GB RAM",
+            "1TB SSD",
+            "RGB lighting"
+        ],
+        "price": "2499.99"
+    },
+    {
+        "product_id": "6",
+        "name": "4K Smart TV 65\"",
+        "description": "A premium 65-inch 4K Smart TV with ultra-clear resolution and advanced smart features for an immersive viewing experience.",
+        "features": [
+            "4K resolution",
+            "HDR support",
+            "Smart TV with built-in apps",
+            "Voice control",
+            "Dolby Atmos sound"
+        ],
+        "price": "1399.99"
+    },
+    {
+        "product_id": "7",
+        "name": "Bluetooth Speaker 3000",
+        "description": "A portable Bluetooth speaker with deep bass and long battery life, perfect for outdoor adventures and parties.",
+        "features": [
+            "Deep bass",
+            "20-hour battery life",
+            "Water-resistant",
+            "Bluetooth 5.0",
+            "Portable"
+        ],
+        "price": "89.99"
+    },
+    {
+        "product_id": "8",
+        "name": "Digital Camera Pro 10",
+        "description": "Capture stunning photos and videos with the Digital Camera Pro 10, featuring advanced autofocus and high-quality lenses.",
+        "features": [
+            "20MP camera",
+            "4K video recording",
+            "Autofocus",
+            "Wi-Fi connectivity",
+            "Compact design"
+        ],
+        "price": "749.99"
+    },
+    {
+        "product_id": "9",
+        "name": "Electric Bike Speedster",
+        "description": "An eco-friendly electric bike that offers a smooth and fast ride, perfect for commuting or long-distance travel.",
+        "features": [
+            "250W motor",
+            "50-mile range",
+            "Foldable design",
+            "LED display",
+            "Adjustable speed settings"
+        ],
+        "price": "999.99"
+    },
+    {
+        "product_id": "10",
+        "name": "Home Security Camera 360",
+        "description": "Ensure your home's safety with this 360-degree security camera that offers real-time video streaming and motion detection alerts.",
+        "features": [
+            "360-degree rotation",
+            "Motion detection",
+            "Night vision",
+            "2-way audio",
+            "Cloud storage"
+        ],
+        "price": "149.99"
+    }
+]
