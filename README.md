@@ -37,7 +37,8 @@ project/
 │   └── products.json     # Dataset of product info
 ├── .env                  # Environment file with API keys
 ├── requirements.txt      # Required Python packages
-└── README.md
+├── README.md
+└── Download.py           # Download all the required package for nltk.
 ```
 
 
